@@ -63,7 +63,7 @@ try:
             try:
                 result = s.connect_ex((remoteServerIP, int(port)))
                 if result == 0:
-                    print "Port {0} is open {1}".format(port, remoteServerIP)
+                    print "Port {0} is open in {1}".format(port, remoteServerIP)
                     s.close()
             except:
                     s.close()
